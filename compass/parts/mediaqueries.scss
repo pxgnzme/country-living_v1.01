@@ -1,0 +1,29 @@
+/* media_queries */
+
+@media only screen and (max-width: 640px) {
+	
+	.slides-control, .slides-navigation{
+		display:none;
+	}
+
+	section{
+		background: url("../img/home_slider_img1.jpg") center fixed;
+		height:auto;
+
+		aside{
+			position: relative;
+			padding-top:0px;
+			height:auto;
+		}
+	}
+	
+	footer{
+		position: relative;
+		margin-top:-25px;
+	}
+
+	header{
+		position: relative;
+	}
+
+}
